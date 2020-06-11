@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "navin@telusko",
   "license": "ISC",
@@ -13,8 +13,6 @@
     "express": "^4.17.1",
     "mongodb": "^3.5.7",
     "mongoose": "^5.9.18"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.3"
   }
+  
 }
