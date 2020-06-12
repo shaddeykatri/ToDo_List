@@ -16,10 +16,14 @@ con.on('open', () => {
     console.log('connected...')
 })
 
+app.use(morgan('dev'))
+
 app.use(express.json())
 
 const alienRouter = require('./routes/aliens')
 app.use('/aliens',alienRouter)
+
+
 
 
 app.listen(process.env.PORT || 9000, () => {
