@@ -1,5 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
+var morgan = require('morgan')
 const env = require('dotenv').config()
 
 
